@@ -1,0 +1,22 @@
+strA = "파이썬은 강력해"
+strB = "python is very powerful"
+print(len(strA))
+print(len(strB))
+print(strB.capitalize())
+print(strB.count("p"))
+print(strB.count("p",7))
+print(strB.startswith("python"))
+print(strB.endswith("ful"))
+result = strB.upper()
+print(result)
+print(result.lower())
+print("MBC2580".isalnum())
+print("MBC:2580".isalnum())
+print("2580".isdecimal())
+data = "<<<  spam and ham  >>>"
+result2 = data.strip("<> ")
+print(result2)
+lst = result2.split()
+print("list:{0}".format(lst))
+result3 = ":)".join(lst)
+print("다시 하나로 조립:{0}".format(result3))
